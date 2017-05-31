@@ -1,0 +1,560 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CB9519521ED7AB3E00E8CD10 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB9519511ED7AB3E00E8CD10 /* AppDelegate.swift */; };
+		CB9519551ED7AB3E00E8CD10 /* lercy.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CB9519531ED7AB3E00E8CD10 /* lercy.xcdatamodeld */; };
+		CB9519571ED7AB3E00E8CD10 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB9519561ED7AB3E00E8CD10 /* MasterViewController.swift */; };
+		CB9519591ED7AB3E00E8CD10 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB9519581ED7AB3E00E8CD10 /* DetailViewController.swift */; };
+		CB95195C1ED7AB3E00E8CD10 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB95195A1ED7AB3E00E8CD10 /* Main.storyboard */; };
+		CB95195E1ED7AB3E00E8CD10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB95195D1ED7AB3E00E8CD10 /* Assets.xcassets */; };
+		CB9519611ED7AB3E00E8CD10 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB95195F1ED7AB3E00E8CD10 /* LaunchScreen.storyboard */; };
+		CB95196C1ED7AB3E00E8CD10 /* lercyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB95196B1ED7AB3E00E8CD10 /* lercyTests.swift */; };
+		CB9519771ED7AB3E00E8CD10 /* lercyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB9519761ED7AB3E00E8CD10 /* lercyUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CB9519681ED7AB3E00E8CD10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB9519461ED7AB3E00E8CD10 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB95194D1ED7AB3E00E8CD10;
+			remoteInfo = lercy;
+		};
+		CB9519731ED7AB3E00E8CD10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB9519461ED7AB3E00E8CD10 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB95194D1ED7AB3E00E8CD10;
+			remoteInfo = lercy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CB95194E1ED7AB3E00E8CD10 /* lercy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lercy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB9519511ED7AB3E00E8CD10 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CB9519541ED7AB3E00E8CD10 /* lercy.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = lercy.xcdatamodel; sourceTree = "<group>"; };
+		CB9519561ED7AB3E00E8CD10 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		CB9519581ED7AB3E00E8CD10 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		CB95195B1ED7AB3E00E8CD10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CB95195D1ED7AB3E00E8CD10 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CB9519601ED7AB3E00E8CD10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CB9519621ED7AB3E00E8CD10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB9519671ED7AB3E00E8CD10 /* lercyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lercyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB95196B1ED7AB3E00E8CD10 /* lercyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lercyTests.swift; sourceTree = "<group>"; };
+		CB95196D1ED7AB3E00E8CD10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB9519721ED7AB3E00E8CD10 /* lercyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lercyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB9519761ED7AB3E00E8CD10 /* lercyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lercyUITests.swift; sourceTree = "<group>"; };
+		CB9519781ED7AB3E00E8CD10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CB95194B1ED7AB3E00E8CD10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB9519641ED7AB3E00E8CD10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB95196F1ED7AB3E00E8CD10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CB9519451ED7AB3E00E8CD10 = {
+			isa = PBXGroup;
+			children = (
+				CB9519501ED7AB3E00E8CD10 /* lercy */,
+				CB95196A1ED7AB3E00E8CD10 /* lercyTests */,
+				CB9519751ED7AB3E00E8CD10 /* lercyUITests */,
+				CB95194F1ED7AB3E00E8CD10 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CB95194F1ED7AB3E00E8CD10 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB95194E1ED7AB3E00E8CD10 /* lercy.app */,
+				CB9519671ED7AB3E00E8CD10 /* lercyTests.xctest */,
+				CB9519721ED7AB3E00E8CD10 /* lercyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB9519501ED7AB3E00E8CD10 /* lercy */ = {
+			isa = PBXGroup;
+			children = (
+				CB9519511ED7AB3E00E8CD10 /* AppDelegate.swift */,
+				CB9519561ED7AB3E00E8CD10 /* MasterViewController.swift */,
+				CB9519581ED7AB3E00E8CD10 /* DetailViewController.swift */,
+				CB95195A1ED7AB3E00E8CD10 /* Main.storyboard */,
+				CB95195D1ED7AB3E00E8CD10 /* Assets.xcassets */,
+				CB95195F1ED7AB3E00E8CD10 /* LaunchScreen.storyboard */,
+				CB9519621ED7AB3E00E8CD10 /* Info.plist */,
+				CB9519531ED7AB3E00E8CD10 /* lercy.xcdatamodeld */,
+			);
+			path = lercy;
+			sourceTree = "<group>";
+		};
+		CB95196A1ED7AB3E00E8CD10 /* lercyTests */ = {
+			isa = PBXGroup;
+			children = (
+				CB95196B1ED7AB3E00E8CD10 /* lercyTests.swift */,
+				CB95196D1ED7AB3E00E8CD10 /* Info.plist */,
+			);
+			path = lercyTests;
+			sourceTree = "<group>";
+		};
+		CB9519751ED7AB3E00E8CD10 /* lercyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CB9519761ED7AB3E00E8CD10 /* lercyUITests.swift */,
+				CB9519781ED7AB3E00E8CD10 /* Info.plist */,
+			);
+			path = lercyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CB95194D1ED7AB3E00E8CD10 /* lercy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB95197B1ED7AB3E00E8CD10 /* Build configuration list for PBXNativeTarget "lercy" */;
+			buildPhases = (
+				CB95194A1ED7AB3E00E8CD10 /* Sources */,
+				CB95194B1ED7AB3E00E8CD10 /* Frameworks */,
+				CB95194C1ED7AB3E00E8CD10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = lercy;
+			productName = lercy;
+			productReference = CB95194E1ED7AB3E00E8CD10 /* lercy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CB9519661ED7AB3E00E8CD10 /* lercyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB95197E1ED7AB3E00E8CD10 /* Build configuration list for PBXNativeTarget "lercyTests" */;
+			buildPhases = (
+				CB9519631ED7AB3E00E8CD10 /* Sources */,
+				CB9519641ED7AB3E00E8CD10 /* Frameworks */,
+				CB9519651ED7AB3E00E8CD10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB9519691ED7AB3E00E8CD10 /* PBXTargetDependency */,
+			);
+			name = lercyTests;
+			productName = lercyTests;
+			productReference = CB9519671ED7AB3E00E8CD10 /* lercyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CB9519711ED7AB3E00E8CD10 /* lercyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB9519811ED7AB3E00E8CD10 /* Build configuration list for PBXNativeTarget "lercyUITests" */;
+			buildPhases = (
+				CB95196E1ED7AB3E00E8CD10 /* Sources */,
+				CB95196F1ED7AB3E00E8CD10 /* Frameworks */,
+				CB9519701ED7AB3E00E8CD10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB9519741ED7AB3E00E8CD10 /* PBXTargetDependency */,
+			);
+			name = lercyUITests;
+			productName = lercyUITests;
+			productReference = CB9519721ED7AB3E00E8CD10 /* lercyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB9519461ED7AB3E00E8CD10 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = com.millionacrenest;
+				TargetAttributes = {
+					CB95194D1ED7AB3E00E8CD10 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = V243T33UAS;
+						ProvisioningStyle = Automatic;
+					};
+					CB9519661ED7AB3E00E8CD10 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = V243T33UAS;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CB95194D1ED7AB3E00E8CD10;
+					};
+					CB9519711ED7AB3E00E8CD10 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = V243T33UAS;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CB95194D1ED7AB3E00E8CD10;
+					};
+				};
+			};
+			buildConfigurationList = CB9519491ED7AB3E00E8CD10 /* Build configuration list for PBXProject "lercy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CB9519451ED7AB3E00E8CD10;
+			productRefGroup = CB95194F1ED7AB3E00E8CD10 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB95194D1ED7AB3E00E8CD10 /* lercy */,
+				CB9519661ED7AB3E00E8CD10 /* lercyTests */,
+				CB9519711ED7AB3E00E8CD10 /* lercyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CB95194C1ED7AB3E00E8CD10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB9519611ED7AB3E00E8CD10 /* LaunchScreen.storyboard in Resources */,
+				CB95195E1ED7AB3E00E8CD10 /* Assets.xcassets in Resources */,
+				CB95195C1ED7AB3E00E8CD10 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB9519651ED7AB3E00E8CD10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB9519701ED7AB3E00E8CD10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CB95194A1ED7AB3E00E8CD10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB9519521ED7AB3E00E8CD10 /* AppDelegate.swift in Sources */,
+				CB9519551ED7AB3E00E8CD10 /* lercy.xcdatamodeld in Sources */,
+				CB9519571ED7AB3E00E8CD10 /* MasterViewController.swift in Sources */,
+				CB9519591ED7AB3E00E8CD10 /* DetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB9519631ED7AB3E00E8CD10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB95196C1ED7AB3E00E8CD10 /* lercyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB95196E1ED7AB3E00E8CD10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB9519771ED7AB3E00E8CD10 /* lercyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CB9519691ED7AB3E00E8CD10 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB95194D1ED7AB3E00E8CD10 /* lercy */;
+			targetProxy = CB9519681ED7AB3E00E8CD10 /* PBXContainerItemProxy */;
+		};
+		CB9519741ED7AB3E00E8CD10 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB95194D1ED7AB3E00E8CD10 /* lercy */;
+			targetProxy = CB9519731ED7AB3E00E8CD10 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CB95195A1ED7AB3E00E8CD10 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB95195B1ED7AB3E00E8CD10 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CB95195F1ED7AB3E00E8CD10 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB9519601ED7AB3E00E8CD10 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CB9519791ED7AB3E00E8CD10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CB95197A1ED7AB3E00E8CD10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CB95197C1ED7AB3E00E8CD10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = V243T33UAS;
+				INFOPLIST_FILE = lercy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MillionAcreNest.lercy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		CB95197D1ED7AB3E00E8CD10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = V243T33UAS;
+				INFOPLIST_FILE = lercy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MillionAcreNest.lercy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		CB95197F1ED7AB3E00E8CD10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = V243T33UAS;
+				INFOPLIST_FILE = lercyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MillionAcreNest.lercyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/lercy.app/lercy";
+			};
+			name = Debug;
+		};
+		CB9519801ED7AB3E00E8CD10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = V243T33UAS;
+				INFOPLIST_FILE = lercyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MillionAcreNest.lercyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/lercy.app/lercy";
+			};
+			name = Release;
+		};
+		CB9519821ED7AB3E00E8CD10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = V243T33UAS;
+				INFOPLIST_FILE = lercyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MillionAcreNest.lercyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = lercy;
+			};
+			name = Debug;
+		};
+		CB9519831ED7AB3E00E8CD10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = V243T33UAS;
+				INFOPLIST_FILE = lercyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MillionAcreNest.lercyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = lercy;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CB9519491ED7AB3E00E8CD10 /* Build configuration list for PBXProject "lercy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB9519791ED7AB3E00E8CD10 /* Debug */,
+				CB95197A1ED7AB3E00E8CD10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB95197B1ED7AB3E00E8CD10 /* Build configuration list for PBXNativeTarget "lercy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB95197C1ED7AB3E00E8CD10 /* Debug */,
+				CB95197D1ED7AB3E00E8CD10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CB95197E1ED7AB3E00E8CD10 /* Build configuration list for PBXNativeTarget "lercyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB95197F1ED7AB3E00E8CD10 /* Debug */,
+				CB9519801ED7AB3E00E8CD10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CB9519811ED7AB3E00E8CD10 /* Build configuration list for PBXNativeTarget "lercyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB9519821ED7AB3E00E8CD10 /* Debug */,
+				CB9519831ED7AB3E00E8CD10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CB9519531ED7AB3E00E8CD10 /* lercy.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CB9519541ED7AB3E00E8CD10 /* lercy.xcdatamodel */,
+			);
+			currentVersion = CB9519541ED7AB3E00E8CD10 /* lercy.xcdatamodel */;
+			path = lercy.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CB9519461ED7AB3E00E8CD10 /* Project object */;
+}
